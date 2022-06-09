@@ -10,3 +10,5 @@ num0, num1 = int(num0), int(num1)
     else:
         print('unknown operator!')
         return None
+    elif operator == '*':
+        return num0 * num1
